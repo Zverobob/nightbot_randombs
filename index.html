@@ -200,6 +200,787 @@ const WORDS = [
     gender: "m",
     type: "abstract",
     tags: ["work", "bad", "time"]
+  },
+  {
+    n: "микроволновка",
+    g: "микроволновки",
+    d: "микроволновке",
+    a: "микроволновку",
+    i: "микроволновкой",
+    p: "микроволновке",
+    gender: "f",
+    type: "thing",
+    tags: ["home", "food", "machine", "hot"]
+  },
+  {
+    n: "пылесос",
+    g: "пылесоса",
+    d: "пылесосу",
+    a: "пылесос",
+    i: "пылесосом",
+    p: "пылесосе",
+    gender: "m",
+    type: "thing",
+    tags: ["home", "machine", "annoying"]
+  },
+  {
+    n: "телевизор",
+    g: "телевизора",
+    d: "телевизору",
+    a: "телевизор",
+    i: "телевизором",
+    p: "телевизоре",
+    gender: "m",
+    type: "thing",
+    tags: ["home", "tech", "entertainment"]
+  },
+  {
+    n: "микрофон",
+    g: "микрофона",
+    d: "микрофону",
+    a: "микрофон",
+    i: "микрофоном",
+    p: "микрофоне",
+    gender: "m",
+    type: "thing",
+    tags: ["tech", "stream", "sound"]
+  },
+  {
+    n: "монитор",
+    g: "монитора",
+    d: "монитору",
+    a: "монитор",
+    i: "монитором",
+    p: "мониторе",
+    gender: "m",
+    type: "thing",
+    tags: ["tech", "office", "machine"]
+  },
+  {
+    n: "кабель",
+    g: "кабеля",
+    d: "кабелю",
+    a: "кабель",
+    i: "кабелем",
+    p: "кабеле",
+    gender: "m",
+    type: "thing",
+    tags: ["tech", "chaos", "annoying"]
+  },
+  {
+    n: "флешка",
+    g: "флешки",
+    d: "флешке",
+    a: "флешку",
+    i: "флешкой",
+    p: "флешке",
+    gender: "f",
+    type: "thing",
+    tags: ["tech", "small", "lost"]
+  },
+  {
+    n: "калькулятор",
+    g: "калькулятора",
+    d: "калькулятору",
+    a: "калькулятор",
+    i: "калькулятором",
+    p: "калькуляторе",
+    gender: "m",
+    type: "thing",
+    tags: ["math", "office", "smart"]
+  },
+  {
+    n: "степлер",
+    g: "степлера",
+    d: "степлеру",
+    a: "степлер",
+    i: "степлером",
+    p: "степлере",
+    gender: "m",
+    type: "thing",
+    tags: ["office", "small", "danger"]
+  },
+  {
+    n: "скотч",
+    g: "скотча",
+    d: "скотчу",
+    a: "скотч",
+    i: "скотчем",
+    p: "скотче",
+    gender: "m",
+    type: "thing",
+    tags: ["home", "office", "universal"]
+  },
+  {
+    n: "фонарик",
+    g: "фонарика",
+    d: "фонарику",
+    a: "фонарик",
+    i: "фонариком",
+    p: "фонарике",
+    gender: "m",
+    type: "thing",
+    tags: ["dark", "useful", "adventure"]
+  },
+  {
+    n: "зонтик",
+    g: "зонтика",
+    d: "зонтику",
+    a: "зонтик",
+    i: "зонтиком",
+    p: "зонтике",
+    gender: "m",
+    type: "thing",
+    tags: ["weather", "travel", "chaos"]
+  },
+  {
+    n: "будильник",
+    g: "будильника",
+    d: "будильнику",
+    a: "будильник",
+    i: "будильником",
+    p: "будильнике",
+    gender: "m",
+    type: "thing",
+    tags: ["time", "sleep", "bad"]
+  },
+  {
+    n: "рюкзак",
+    g: "рюкзака",
+    d: "рюкзаку",
+    a: "рюкзак",
+    i: "рюкзаком",
+    p: "рюкзаке",
+    gender: "m",
+    type: "thing",
+    tags: ["travel", "home", "adventure"]
+  },
+  {
+    n: "носок",
+    g: "носка",
+    d: "носку",
+    a: "носок",
+    i: "носком",
+    p: "носке",
+    gender: "m",
+    type: "thing",
+    tags: ["home", "lost", "chaos"]
+  },
+  {
+    n: "тапок",
+    g: "тапка",
+    d: "тапку",
+    a: "тапок",
+    i: "тапком",
+    p: "тапке",
+    gender: "m",
+    type: "thing",
+    tags: ["home", "weapon", "chaos"]
+  },
+  {
+    n: "менеджер",
+    g: "менеджера",
+    d: "менеджеру",
+    a: "менеджера",
+    i: "менеджером",
+    p: "менеджере",
+    gender: "m",
+    type: "person",
+    tags: ["work", "office", "money", "chaos"]
+  },
+  {
+    n: "директор",
+    g: "директора",
+    d: "директору",
+    a: "директора",
+    i: "директором",
+    p: "директоре",
+    gender: "m",
+    type: "person",
+    tags: ["work", "power", "money"]
+  },
+  {
+    n: "курьер",
+    g: "курьера",
+    d: "курьеру",
+    a: "курьера",
+    i: "курьером",
+    p: "курьере",
+    gender: "m",
+    type: "person",
+    tags: ["city", "food", "work"]
+  },
+  {
+    n: "бариста",
+    g: "бариста",
+    d: "бариста",
+    a: "бариста",
+    i: "бариста",
+    p: "бариста",
+    gender: "m",
+    type: "person",
+    tags: ["food", "coffee", "work"]
+  },
+  {
+    n: "дизайнер",
+    g: "дизайнера",
+    d: "дизайнеру",
+    a: "дизайнера",
+    i: "дизайнером",
+    p: "дизайнере",
+    gender: "m",
+    type: "person",
+    tags: ["work", "art", "smart"]
+  },
+  {
+    n: "инженер",
+    g: "инженера",
+    d: "инженеру",
+    a: "инженера",
+    i: "инженером",
+    p: "инженере",
+    gender: "m",
+    type: "person",
+    tags: ["tech", "smart", "work"]
+  },
+  {
+    n: "учёный",
+    g: "учёного",
+    d: "учёному",
+    a: "учёного",
+    i: "учёным",
+    p: "учёном",
+    gender: "m",
+    type: "person",
+    tags: ["science", "smart", "mystery"]
+  },
+  {
+    n: "профессор",
+    g: "профессора",
+    d: "профессору",
+    a: "профессора",
+    i: "профессором",
+    p: "профессоре",
+    gender: "m",
+    type: "person",
+    tags: ["science", "smart", "old"]
+  },
+  {
+    n: "дирижёр",
+    g: "дирижёра",
+    d: "дирижёру",
+    a: "дирижёра",
+    i: "дирижёром",
+    p: "дирижёре",
+    gender: "m",
+    type: "person",
+    tags: ["music", "art", "chaos"]
+  },
+  {
+    n: "пенсионер",
+    g: "пенсионера",
+    d: "пенсионеру",
+    a: "пенсионера",
+    i: "пенсионером",
+    p: "пенсионере",
+    gender: "m",
+    type: "person",
+    tags: ["old", "wise", "chaos"]
+  },
+  {
+    n: "хомяк",
+    g: "хомяка",
+    d: "хомяку",
+    a: "хомяка",
+    i: "хомяком",
+    p: "хомяке",
+    gender: "m",
+    type: "animal",
+    tags: ["home", "small", "chaos", "food"]
+  },
+  {
+    n: "ворона",
+    g: "вороны",
+    d: "вороне",
+    a: "ворону",
+    i: "вороной",
+    p: "вороне",
+    gender: "f",
+    type: "animal",
+    tags: ["city", "smart", "chaos"]
+  },
+  {
+    n: "крыса",
+    g: "крысы",
+    d: "крысе",
+    a: "крысу",
+    i: "крысой",
+    p: "крысе",
+    gender: "f",
+    type: "animal",
+    tags: ["city", "smart", "survival", "chaos"]
+  },
+  {
+    n: "лошадь",
+    g: "лошади",
+    d: "лошади",
+    a: "лошадь",
+    i: "лошадью",
+    p: "лошади",
+    gender: "f",
+    type: "animal",
+    tags: ["animal", "power", "travel"]
+  },
+  {
+    n: "пингвин",
+    g: "пингвина",
+    d: "пингвину",
+    a: "пингвина",
+    i: "пингвином",
+    p: "пингвине",
+    gender: "m",
+    type: "animal",
+    tags: ["cold", "smart", "chaos"]
+  },
+  {
+    n: "осьминог",
+    g: "осьминога",
+    d: "осьминогу",
+    a: "осьминога",
+    i: "осьминогом",
+    p: "осьминоге",
+    gender: "m",
+    type: "animal",
+    tags: ["sea", "smart", "chaos"]
+  },
+  {
+    n: "ёж",
+    g: "ежа",
+    d: "ежу",
+    a: "ежа",
+    i: "ежом",
+    p: "еже",
+    gender: "m",
+    type: "animal",
+    tags: ["forest", "small", "danger"]
+  },
+  {
+    n: "лягушка",
+    g: "лягушки",
+    d: "лягушке",
+    a: "лягушку",
+    i: "лягушкой",
+    p: "лягушке",
+    gender: "f",
+    type: "animal",
+    tags: ["swamp", "magic", "chaos"]
+  },
+  {
+    n: "акула",
+    g: "акулы",
+    d: "акуле",
+    a: "акулу",
+    i: "акулой",
+    p: "акуле",
+    gender: "f",
+    type: "animal",
+    tags: ["sea", "danger", "power"]
+  },
+  {
+    n: "барсук",
+    g: "барсука",
+    d: "барсуку",
+    a: "барсука",
+    i: "барсуком",
+    p: "барсуке",
+    gender: "m",
+    type: "animal",
+    tags: ["forest", "chaos", "wise"]
+  },
+  {
+    n: "макароны",
+    g: "макарон",
+    d: "макаронам",
+    a: "макароны",
+    i: "макаронами",
+    p: "макаронах",
+    gender: "plural",
+    type: "food",
+    tags: ["food", "home", "chaos"]
+  },
+  {
+    n: "бутерброд",
+    g: "бутерброда",
+    d: "бутерброду",
+    a: "бутерброд",
+    i: "бутербродом",
+    p: "бутерброде",
+    gender: "m",
+    type: "food",
+    tags: ["food", "home", "quick"]
+  },
+  {
+    n: "арбуз",
+    g: "арбуза",
+    d: "арбузу",
+    a: "арбуз",
+    i: "арбузом",
+    p: "арбузе",
+    gender: "m",
+    type: "food",
+    tags: ["food", "summer", "large"]
+  },
+  {
+    n: "банан",
+    g: "банана",
+    d: "банану",
+    a: "банан",
+    i: "бананом",
+    p: "банане",
+    gender: "m",
+    type: "food",
+    tags: ["food", "yellow", "chaos"]
+  },
+  {
+    n: "сырник",
+    g: "сырника",
+    d: "сырнику",
+    a: "сырник",
+    i: "сырником",
+    p: "сырнике",
+    gender: "m",
+    type: "food",
+    tags: ["food", "breakfast", "home"]
+  },
+  {
+    n: "огурец",
+    g: "огурца",
+    d: "огурцу",
+    a: "огурец",
+    i: "огурцом",
+    p: "огурце",
+    gender: "m",
+    type: "food",
+    tags: ["food", "green", "home"]
+  },
+  {
+    n: "борщ",
+    g: "борща",
+    d: "борщу",
+    a: "борщ",
+    i: "борщом",
+    p: "борще",
+    gender: "m",
+    type: "food",
+    tags: ["food", "hot", "wise"]
+  },
+  {
+    n: "майонез",
+    g: "майонеза",
+    d: "майонезу",
+    a: "майонез",
+    i: "майонезом",
+    p: "майонезе",
+    gender: "m",
+    type: "food",
+    tags: ["food", "chaos", "home"]
+  },
+  {
+    n: "хаос",
+    g: "хаоса",
+    d: "хаосу",
+    a: "хаос",
+    i: "хаосом",
+    p: "хаосе",
+    gender: "m",
+    type: "abstract",
+    tags: ["chaos", "magic", "bad"]
+  },
+  {
+    n: "порядок",
+    g: "порядка",
+    d: "порядку",
+    a: "порядок",
+    i: "порядком",
+    p: "порядке",
+    gender: "m",
+    type: "abstract",
+    tags: ["smart", "work", "wise"]
+  },
+  {
+    n: "рандом",
+    g: "рандома",
+    d: "рандому",
+    a: "рандом",
+    i: "рандомом",
+    p: "рандоме",
+    gender: "m",
+    type: "abstract",
+    tags: ["chaos", "random", "smart"]
+  },
+  {
+    n: "парадокс",
+    g: "парадокса",
+    d: "парадоксу",
+    a: "парадокс",
+    i: "парадоксом",
+    p: "парадоксе",
+    gender: "m",
+    type: "abstract",
+    tags: ["smart", "mystery", "chaos"]
+  },
+  {
+    n: "интуиция",
+    g: "интуиции",
+    d: "интуиции",
+    a: "интуицию",
+    i: "интуицией",
+    p: "интуиции",
+    gender: "f",
+    type: "abstract",
+    tags: ["smart", "mystery", "magic"]
+  },
+  {
+    n: "карма",
+    g: "кармы",
+    d: "карме",
+    a: "карму",
+    i: "кармой",
+    p: "карме",
+    gender: "f",
+    type: "abstract",
+    tags: ["magic", "wise", "bad"]
+  },
+  {
+    n: "вселенная",
+    g: "вселенной",
+    d: "вселенной",
+    a: "вселенную",
+    i: "вселенной",
+    p: "вселенной",
+    gender: "f",
+    type: "abstract",
+    tags: ["space", "magic", "wise"]
+  },
+  {
+    n: "судьба",
+    g: "судьбы",
+    d: "судьбе",
+    a: "судьбу",
+    i: "судьбой",
+    p: "судьбе",
+    gender: "f",
+    type: "abstract",
+    tags: ["magic", "wise", "mystery"]
+  },
+  {
+    n: "прокрастинация",
+    g: "прокрастинации",
+    d: "прокрастинации",
+    a: "прокрастинацию",
+    i: "прокрастинацией",
+    p: "прокрастинации",
+    gender: "f",
+    type: "abstract",
+    tags: ["work", "bad", "time", "chaos"]
+  },
+  {
+    n: "мотивация",
+    g: "мотивации",
+    d: "мотивации",
+    a: "мотивацию",
+    i: "мотивацией",
+    p: "мотивации",
+    gender: "f",
+    type: "abstract",
+    tags: ["work", "smart", "time"]
+  },
+  {
+    n: "паника",
+    g: "паники",
+    d: "панике",
+    a: "панику",
+    i: "паникой",
+    p: "панике",
+    gender: "f",
+    type: "abstract",
+    tags: ["bad", "chaos", "work"]
+  },
+  {
+    n: "тишина",
+    g: "тишины",
+    d: "тишине",
+    a: "тишину",
+    i: "тишиной",
+    p: "тишине",
+    gender: "f",
+    type: "abstract",
+    tags: ["mystery", "wise", "quiet"]
+  },
+  {
+    n: "Сова на скакалке",
+    g: "Совы на скакалке",
+    d: "Сове на скакалке",
+    a: "Сову на скакалке",
+    i: "Совой на скакалке",
+    p: "Сове на скакалке",
+    gender: "f",
+    type: "meme",
+    tags: ["meme", "chaos", "animal", "absurd"]
+  },
+  {
+    n: "Чипи-Чипи Чапа-Чапа",
+    g: "Чипи-Чипи Чапа-Чапы",
+    d: "Чипи-Чипи Чапа-Чапе",
+    a: "Чипи-Чипи Чапа-Чапу",
+    i: "Чипи-Чипи Чапа-Чапой",
+    p: "Чипи-Чипи Чапа-Чапе",
+    gender: "f",
+    type: "meme",
+    tags: ["meme", "music", "chaos", "absurd"]
+  },
+  {
+    n: "кот в тапке",
+    g: "кота в тапке",
+    d: "коту в тапке",
+    a: "кота в тапке",
+    i: "котом в тапке",
+    p: "коте в тапке",
+    gender: "m",
+    type: "meme",
+    tags: ["meme", "cat", "home", "absurd"]
+  },
+  {
+    n: "бобр курва",
+    g: "бобра курвы",
+    d: "бобру курве",
+    a: "бобра курву",
+    i: "бобром курвой",
+    p: "бобре курве",
+    gender: "m",
+    type: "meme",
+    tags: ["meme", "animal", "chaos"]
+  },
+  {
+    n: "шайлушай",
+    g: "шайлушая",
+    d: "шайлушаю",
+    a: "шайлушая",
+    i: "шайлушаем",
+    p: "шайлушае",
+    gender: "m",
+    type: "meme",
+    tags: ["meme", "chaos", "absurd"]
+  },
+  {
+    n: "гигачад",
+    g: "гигачада",
+    d: "гигачаду",
+    a: "гигачада",
+    i: "гигачадом",
+    p: "гигачаде",
+    gender: "m",
+    type: "meme",
+    tags: ["meme", "power", "smart"]
+  },
+  {
+    n: "нейросеть",
+    g: "нейросети",
+    d: "нейросети",
+    a: "нейросеть",
+    i: "нейросетью",
+    p: "нейросети",
+    gender: "f",
+    type: "meme",
+    tags: ["meme", "tech", "smart", "chaos"]
+  },
+  {
+    n: "кринж",
+    g: "кринжа",
+    d: "кринжу",
+    a: "кринж",
+    i: "кринжом",
+    p: "кринже",
+    gender: "m",
+    type: "meme",
+    tags: ["meme", "chaos", "bad"]
+  },
+  {
+    n: "скуф",
+    g: "скуфа",
+    d: "скуфу",
+    a: "скуфа",
+    i: "скуфом",
+    p: "скуфе",
+    gender: "m",
+    type: "meme",
+    tags: ["meme", "person", "chaos"]
+  },
+  {
+    n: "сигма",
+    g: "сигмы",
+    d: "сигме",
+    a: "сигму",
+    i: "сигмой",
+    p: "сигме",
+    gender: "f",
+    type: "meme",
+    tags: ["meme", "smart", "power", "absurd"]
+  },
+  {
+    n: "альтушка с госуслуг",
+    g: "альтушки с госуслуг",
+    d: "альтушке с госуслуг",
+    a: "альтушку с госуслуг",
+    i: "альтушкой с госуслуг",
+    p: "альтушке с госуслуг",
+    gender: "f",
+    type: "meme",
+    tags: ["meme", "person", "chaos"]
+  },
+  {
+    n: "летучая мышь в кредит",
+    g: "летучей мыши в кредит",
+    d: "летучей мыши в кредит",
+    a: "летучую мышь в кредит",
+    i: "летучей мышью в кредит",
+    p: "летучей мыши в кредит",
+    gender: "f",
+    type: "meme",
+    tags: ["meme", "animal", "money", "absurd"]
+  },
+  {
+    n: "бабка с лопатой",
+    g: "бабки с лопатой",
+    d: "бабке с лопатой",
+    a: "бабку с лопатой",
+    i: "бабкой с лопатой",
+    p: "бабке с лопатой",
+    gender: "f",
+    type: "meme",
+    tags: ["meme", "person", "danger", "chaos"]
+  },
+  {
+    n: "картофельный император",
+    g: "картофельного императора",
+    d: "картофельному императору",
+    a: "картофельного императора",
+    i: "картофельным императором",
+    p: "картофельном императоре",
+    gender: "m",
+    type: "meme",
+    tags: ["meme", "food", "power", "absurd"]
+  },
+  {
+    n: "гусь в бронежилете",
+    g: "гуся в бронежилете",
+    d: "гусю в бронежилете",
+    a: "гуся в бронежилете",
+    i: "гусём в бронежилете",
+    p: "гусе в бронежилете",
+    gender: "m",
+    type: "meme",
+    tags: ["meme", "animal", "danger", "chaos"]
   }
 ];
 
@@ -495,7 +1276,535 @@ const PRESETS = [
 
     return "Когда " + word.n + " " +
       action.forms.p + ", " + statement + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Никогда не спрашивай " + word.a + ", почему.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Тот, кто понял " + word.a + ", уже не вернётся прежним.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Всё началось с " + word.g + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "После встречи с " + word.i + " правила перестали работать.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Однажды " + word.n + " изменил ход истории.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Даже мудрец не знает, что делать с " + word.i + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Не каждый готов принять правду о " + word.p + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Секрет " + word.g + " лучше оставить между нами.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Когда всё рушится, " + word.n + " продолжает делать вид, что так и задумано.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Если ты увидел " + word.a + ", значит уже слишком поздно.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Мудрый человек однажды посмотрел на " + word.a + " и ничего не сказал.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Ответ лежит где-то между тобой и " + word.i + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Никто не знает, чего хочет " + word.n + ". Даже он сам.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Вселенная не случайно создала " + word.a + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Сначала появился " + word.n + ", а потом появились проблемы.";
+  },
+
+  function() {
+    var word = getWord();
+    return "История запомнит " + word.a + ", но не поймёт зачем.";
+  },
+
+  function() {
+    var word = getWord();
+    return "В присутствии " + word.g + " лучше не принимать важных решений.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Каждый однажды должен встретиться с " + word.i + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Не существует правильного ответа, если вопрос касается " + word.g + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Иногда единственный путь вперёд лежит через " + word.a + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Если " + word.n + " появился рядом, сохраняй спокойствие.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Когда появляется " + word.n + ", здравый смысл покидает помещение.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Никогда не недооценивай " + word.a + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Однажды " + word.n + " спросил у меня, зачем мы здесь.";
+  },
+
+  function() {
+    var word = getWord();
+    return "У " + word.g + " есть план. Лучше его не узнавать.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Неважно, что ты думаешь о " + word.p + ". Оно уже думает о тебе.";
+  },
+
+  function() {
+    var word = getWord();
+    return "После " + word.g + " всё стало немного сложнее.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Нельзя победить " + word.a + ", если ты не знаешь правил.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Сила заключается не в тебе, а в " + word.p + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Когда сомневаешься, просто спроси у " + word.g + ".";
+  },
+
+
+  function() {
+    var a = getWord();
+    var b = getWord();
+    return a.n + " и " + b.n + " никогда не должны встретиться.";
+  },
+
+  function() {
+    var a = getWord();
+    var b = getWord();
+    return "Между " + a.i + " и " + b.i + " существует связь.";
+  },
+
+  function() {
+    var a = getWord();
+    var b = getWord();
+    return "Если " + a.n + " увидит " + b.a + ", последствия будут непредсказуемыми.";
+  },
+
+  function() {
+    var a = getWord();
+    var b = getWord();
+    return "Никто не знает, почему " + a.n + " боится " + b.g + ".";
+  },
+
+  function() {
+    var a = getWord();
+    var b = getWord();
+    return "Всё было спокойно, пока " + a.n + " не встретил " + b.a + ".";
+  },
+
+  function() {
+    var a = getWord();
+    var b = getWord();
+    return "История " + a.g + " началась после разговора с " + b.i + ".";
+  },
+
+  function() {
+    var a = getWord();
+    var b = getWord();
+    return "Не позволяй " + a.d + " приближаться к " + b.d + ".";
+  },
+
+  function() {
+    var a = getWord();
+    var b = getWord();
+    return "В присутствии " + a.g + " даже " + b.n + " становится серьёзным.";
+  },
+
+  function() {
+    var a = getWord();
+    var b = getWord();
+    return "Когда " + a.n + " молчит, " + b.n + " начинает нервничать.";
+  },
+
+  function() {
+    var a = getWord();
+    var b = getWord();
+    return "Мир ещё не готов к союзу между " + a.i + " и " + b.i + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Система обнаружила " + word.a + ". Исправление невозможно.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Загрузка " + word.g + " завершена на 73%.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Критическая ошибка: " + word.n + " вышел за пределы допустимого.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Синхронизация с " + word.i + " установлена.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Доступ к " + word.d + " запрещён администрацией реальности.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Обнаружена новая версия " + word.g + ". Перезагрузка не требуется.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Ошибка 500: " + word.n + " не смог обработать запрос.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Выполняется анализ " + word.g + "... Результат лучше не знать.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Подключение к " + word.d + " потеряно.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Система считает, что " + word.n + " ведёт себя подозрительно.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Автоматическая проверка " + word.g + " выявила наличие проблем.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Протокол " + word.g + " активирован.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Инициализация " + word.g + " завершена успешно.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Невозможно удалить " + word.a + ". Он нужен сюжету.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Сервер " + word.g + " отвечает слишком философски.";
+  },
+
+  function() {
+    var word = getWord(null, "smart");
+    var action = getAction(word);
+    return "Сегодня " + word.n + " " +
+      action.forms.present[word.gender] +
+      ", но вчера всё было иначе.";
+  },
+
+  function() {
+    var word = getWord();
+    var action = getAction(word);
+    return "Когда-то " + word.n + " " +
+      action.forms.past[word.gender] +
+      " и не знал, чем всё закончится.";
+  },
+
+  function() {
+    var word = getWord();
+    var action = getAction(word);
+    return "Завтра " + word.n + " снова " +
+      action.forms.future[word.gender] + ".";
+  },
+
+  function() {
+    var word = getWord(null, "smart");
+    var action = getAction(word);
+    return "Если " + word.n + " " +
+      action.forms.future[word.gender] +
+      ", мир изменится.";
+  },
+
+  function() {
+    var word = getWord();
+    var action = getAction(word);
+    return "Вчера " + word.n + " " +
+      action.forms.past[word.gender] +
+      ", а сегодня делает вид, что ничего не произошло.";
+  },
+
+  function() {
+    var word = getWord();
+    var action = getAction(word);
+    return "Через три дня " + word.n + " " +
+      action.forms.future[word.gender] +
+      ", и никто этому не помешает.";
+  },
+
+  function() {
+    var word = getWord();
+    var action = getAction(word);
+    return "Однажды " + word.n + " " +
+      action.forms.past[word.gender] +
+      " слишком далеко.";
+  },
+
+  function() {
+    var word = getWord();
+    var action = getAction(word);
+    return "Пока " + word.n + " " +
+      action.forms.present[word.gender] +
+      ", время продолжает идти.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Кто ищет смысл в " + word.p + ", тот уже нашёл его.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Мудрость приходит тогда, когда исчезает необходимость понимать " + word.a + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Иногда " + word.n + " — это не объект, а состояние души.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Ты можешь изменить мир, но не сможешь изменить " + word.a + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "В каждом " + word.p + " есть немного правды.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Не ищи ответы. Они давно находятся у " + word.g + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Путь к истине начинается с принятия " + word.g + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Если ты понял " + word.n + ", ты понял слишком много.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Главное — не то, что такое " + word.n + ", а зачем он вообще здесь.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Истинная мудрость заключается в доверии к " + word.d + ".";
+  },
+
+
+  // ---------- АБСУРД / ХАОС ----------
+
+  function() {
+    var word = getWord();
+    return "По неизвестной причине " + word.n + " был назначен ответственным.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Совет мудрецов единогласно решил обвинить " + word.a + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "План был идеальным, пока не появился " + word.n + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Никто не ожидал, что именно " + word.n + " окажется виноват.";
+  },
+
+  function() {
+    var word = getWord();
+    return "По документам " + word.n + " не существует.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Все проблемы начались из-за одного разговора с " + word.i + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Не спрашивай, почему " + word.n + " получил доступ к системе.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Вчера " + word.n + " был обычным. Сегодня это уже не наша проблема.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Если всё пошло не по плану, проверь " + word.a + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "В официальной версии событий " + word.n + " вообще не участвовал.";
+  },
+
+  function() {
+    var word = getWord();
+    return "После этого случая " + word.n + " запретили приближаться к серверу.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Никто не знает, кто разрешил " + word.d + " это делать.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Согласно древнему пророчеству, всё закончится " + word.i + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Именно поэтому мы больше не доверяем " + word.d + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Это была плохая идея ещё до появления " + word.g + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Если увидишь " + word.a + ", просто продолжай идти.";
+  },
+
+  function() {
+    var word = getWord();
+    return "На этом этапе вмешательство " + word.g + " уже неизбежно.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Не существует инструкции на случай встречи с " + word.i + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Эксперимент с " + word.i + " признан частично успешным.";
+  },
+
+  function() {
+    var word = getWord();
+    return "После контакта с " + word.i + " появились новые правила.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Мы потеряли контроль над " + word.i + ", но приобрели опыт.";
+  },
+
+  function() {
+    var word = getWord();
+    return "По крайней мере, " + word.n + " знает, что произошло.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Если кто-нибудь спросит, " + word.n + " здесь не был.";
+  },
+
+  function() {
+    var word = getWord();
+    return "Всё под контролем. Особенно " + word.n + ".";
+  },
+
+  function() {
+    var word = getWord();
+    return "Проблема не в " + word.p + ". Проблема в том, что мы его заметили.";
   }
+
 ];
 
 function generateWisdom() {
